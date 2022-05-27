@@ -1,0 +1,3 @@
+example=echo Hello GoozOS!
+pin_config=--name myPin --pin 2 --type OUT
+deneme=test
