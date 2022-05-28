@@ -1,6 +1,12 @@
 # Gooz Project for ESP32
 The Gooz project acts as an operating system and aims at a Linux experience for microcontrollers. It includes many features such as general microcontroller usage, package management system and IoT based operations.
 
+# Contributors
+- Gorkem Aktas
+- Ozgur Karaaslan
+- Arda Sonmez
+- Buket Ozbay
+
 # Basics
 Basic GOOZ commands to use operating system like Linux
 
