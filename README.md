@@ -132,6 +132,11 @@ The value which refers to "user/password" successfully changed as "1234"
 
 - Changing configurations does not support multiple changes. That means the `[CONFIG_PATH]` must refer to a single configuration.
 - System configuration does not support adding new configuration. If you need new key-value type data you can use Environment Variables.
+```bash
+>>> conf change user/username [CURRENT_PASSWORD] [NEW_USERNAME] 
+>>> conf change user/password [CURRENT_PASSWORD] [NEW_PASSWORD]
+```
+- To change username and password, current password should be given as above.
 
 # Environment Variables
 
