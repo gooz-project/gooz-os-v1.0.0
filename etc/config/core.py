@@ -72,7 +72,7 @@ def change(cmds):
         elif cmds[2] == 'user/username':
             private = True
             if cmds[3] != _find_value('user/password'):
-                return LOG.error('Please enter current password before change!')+LOG.info('\nUsage ->\nconf change user/username [PASSWORD] [NEW_USERNAME]')
+                return LOG.error('Please enter current password before change!')+LOG.info('\nUsage ->\nconf change user/username [CURRENT_USERNAME] [NEW_USERNAME]')
                 
         config_file = open('//etc/config/configures.txt','r')
         global globaldata
