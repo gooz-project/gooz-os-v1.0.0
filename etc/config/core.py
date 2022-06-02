@@ -7,6 +7,7 @@ class ConfErrors:
     @staticmethod
     def no_key(key):
         return LOG.error('There is no key for "{}" !'.format(str(key)))
+    @staticmethod
     def key_not_refer_str(key):
         message = LOG.error('The key "{}" is not refer a str!'.format(str(key))) + "\n"
         message += LOG.error('A dict is not changeable directly!')
