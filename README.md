@@ -10,6 +10,16 @@ The Gooz project acts as an operating system and aims at a Linux experience for 
 # Basics
 Basic GOOZ commands to use operating system like Linux
 
+### Login the system
+
+```bash
+>>> INFO:GoozOs is starting...
+>>> Username -> admin
+>>> Password -> 0000
+>>> INFO:Welcome admin
+```
+- Default username is “admin” and password is “0000”. It can be changed with system configuration settings.
+
 ### list Command
 
 ```bash
