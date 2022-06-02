@@ -11,27 +11,10 @@ gc.enable()
 try:
     username = _find_value('user/username')
     password = _find_value('user/password')
-    if username == "" and password == "":
-        try:
-            register()
-        except Exception as ex:
-            print(ex)
     machine_name = _find_value('system/machine')
 except:
     print(LOG.error('Error while getting settings from config!'))
     print(LOG.error('Please check etc/config/configures.txt'))
-    
-    
-def register():
-    print(LOG.info("Please set username and password"))
-    new_username = input('Username: ')
-    new_password = input('Password: ')
-    GoozEngine.run("conf change user/username {}".format(new_username))
-    GoozEngine.run("conf change user/password {}".format(new_password))
-    global username
-    username = new_username
-    global password
-    password = new_password
     
     
 def login(username, password):
